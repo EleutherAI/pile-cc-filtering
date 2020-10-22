@@ -8,7 +8,7 @@ This procedure is largely based on the filtering detailed in the GPT3 paper; we 
 ## Usage
 
 1. Get fasttext training data from [The Pile](https://github.com/EleutherAI/The-Pile) (see instructions there)
-2. Get fasttext training data from CC by running:
+2. Get fasttext training data from CC (downloaded using [cc_downloader](https://github.com/leogao2/commoncrawl_downloader)) by running:
 ```
 python make_cc_fasttext.py path/to/cc_data
 ```
