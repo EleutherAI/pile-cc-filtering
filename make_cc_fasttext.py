@@ -7,7 +7,7 @@ datadir = sys.argv[1]
 
 files = [datadir + '/' + f for f in os.listdir(datadir) if f.startswith('data_')]
 
-num_docs = 16882635
+num_docs = 16727104
 docs_per_chunk = num_docs // len(files)
 
 
